@@ -1,0 +1,146 @@
+{
+ "OF_ENV_01_WalnutDecisionDesk_v01": {
+  "path": "assets/03_The_Offer_Looks_Good/01_Environments/OF_ENV_01_WalnutDecisionDesk_v01.png",
+  "w": 1376,
+  "h": 768,
+  "alpha": false
+ },
+ "OF_ENV_02_LowLightDesk_v01": {
+  "path": "assets/03_The_Offer_Looks_Good/01_Environments/OF_ENV_02_LowLightDesk_v01.png",
+  "w": 1376,
+  "h": 768,
+  "alpha": false
+ },
+ "OF_DOC_01_OfferA_NorthPier_v01": {
+  "path": "assets/03_The_Offer_Looks_Good/03_Cropped_Transparent_PNGs/OF_DOC_01_OfferA_NorthPier_v01.png",
+  "w": 488,
+  "h": 671,
+  "alpha": true
+ },
+ "OF_DOC_02_OfferB_RoomEight_v01": {
+  "path": "assets/03_The_Offer_Looks_Good/03_Cropped_Transparent_PNGs/OF_DOC_02_OfferB_RoomEight_v01.png",
+  "w": 489,
+  "h": 672,
+  "alpha": true
+ },
+ "OF_DOC_03_SupplementaryDrawerDoc_v01": {
+  "path": "assets/03_The_Offer_Looks_Good/03_Cropped_Transparent_PNGs/OF_DOC_03_SupplementaryDrawerDoc_v01.png",
+  "w": 482,
+  "h": 637,
+  "alpha": true
+ },
+ "OF_DOC_04_QuestionsToAskSheet_v01": {
+  "path": "assets/03_The_Offer_Looks_Good/03_Cropped_Transparent_PNGs/OF_DOC_04_QuestionsToAskSheet_v01.png",
+  "w": 483,
+  "h": 637,
+  "alpha": true
+ },
+ "OF_PROP_01_ForestGreenEnvelope_v01": {
+  "path": "assets/03_The_Offer_Looks_Good/03_Cropped_Transparent_PNGs/OF_PROP_01_ForestGreenEnvelope_v01.png",
+  "w": 401,
+  "h": 298,
+  "alpha": true
+ },
+ "OF_PROP_02_BurgundyEnvelope_v01": {
+  "path": "assets/03_The_Offer_Looks_Good/03_Cropped_Transparent_PNGs/OF_PROP_02_BurgundyEnvelope_v01.png",
+  "w": 401,
+  "h": 298,
+  "alpha": true
+ },
+ "OF_PROP_03_OpenedEnvelope_v01": {
+  "path": "assets/03_The_Offer_Looks_Good/03_Cropped_Transparent_PNGs/OF_PROP_03_OpenedEnvelope_v01.png",
+  "w": 402,
+  "h": 477,
+  "alpha": true
+ },
+ "OF_PROP_04_CreamLetterSheets_v01": {
+  "path": "assets/03_The_Offer_Looks_Good/03_Cropped_Transparent_PNGs/OF_PROP_04_CreamLetterSheets_v01.png",
+  "w": 476,
+  "h": 621,
+  "alpha": true
+ },
+ "OF_PROP_05_FountainPen_v01": {
+  "path": "assets/03_The_Offer_Looks_Good/03_Cropped_Transparent_PNGs/OF_PROP_05_FountainPen_v01.png",
+  "w": 364,
+  "h": 310,
+  "alpha": true
+ },
+ "OF_PROP_06_BrassPaperweight_v01": {
+  "path": "assets/03_The_Offer_Looks_Good/03_Cropped_Transparent_PNGs/OF_PROP_06_BrassPaperweight_v01.png",
+  "w": 322,
+  "h": 267,
+  "alpha": true
+ },
+ "OF_PROP_07_MagnifyingGlass_v01": {
+  "path": "assets/03_The_Offer_Looks_Good/03_Cropped_Transparent_PNGs/OF_PROP_07_MagnifyingGlass_v01.png",
+  "w": 380,
+  "h": 302,
+  "alpha": true
+ },
+ "OF_PROP_08_LeatherNotebook_v01": {
+  "path": "assets/03_The_Offer_Looks_Good/03_Cropped_Transparent_PNGs/OF_PROP_08_LeatherNotebook_v01.png",
+  "w": 243,
+  "h": 356,
+  "alpha": true
+ },
+ "OF_PROP_09_DeskClock_v01": {
+  "path": "assets/03_The_Offer_Looks_Good/03_Cropped_Transparent_PNGs/OF_PROP_09_DeskClock_v01.png",
+  "w": 293,
+  "h": 293,
+  "alpha": true
+ },
+ "OF_PROP_10_DocumentDrawers_v01": {
+  "path": "assets/03_The_Offer_Looks_Good/03_Cropped_Transparent_PNGs/OF_PROP_10_DocumentDrawers_v01.png",
+  "w": 473,
+  "h": 343,
+  "alpha": true
+ },
+ "OF_PROP_11_BrassRuler_v01": {
+  "path": "assets/03_The_Offer_Looks_Good/03_Cropped_Transparent_PNGs/OF_PROP_11_BrassRuler_v01.png",
+  "w": 604,
+  "h": 100,
+  "alpha": true
+ },
+ "OF_PROP_12_BlankNoteCards_v01": {
+  "path": "assets/03_The_Offer_Looks_Good/03_Cropped_Transparent_PNGs/OF_PROP_12_BlankNoteCards_v01.png",
+  "w": 467,
+  "h": 400,
+  "alpha": true
+ },
+ "OF_PROP_13_EnvelopeKnife_v01": {
+  "path": "assets/03_The_Offer_Looks_Good/03_Cropped_Transparent_PNGs/OF_PROP_13_EnvelopeKnife_v01.png",
+  "w": 555,
+  "h": 250,
+  "alpha": true
+ },
+ "OF_PROP_14_MiniCalculator_v01": {
+  "path": "assets/03_The_Offer_Looks_Good/03_Cropped_Transparent_PNGs/OF_PROP_14_MiniCalculator_v01.png",
+  "w": 245,
+  "h": 348,
+  "alpha": true
+ },
+ "OF_PROP_01_ForestGreenEnvelope_v01__seal": {
+  "path": "assets/derived/OF_PROP_01_ForestGreenEnvelope_v01__seal.png",
+  "w": 90,
+  "h": 85,
+  "alpha": true,
+  "derivedFrom": "OF_PROP_01_ForestGreenEnvelope_v01.png",
+  "derivation": "Wax seal cut from the sealed envelope (box 152,148\u2013242,233) so it can crack in two halves when opened."
+ },
+ "OF_PROP_02_BurgundyEnvelope_v01__seal": {
+  "path": "assets/derived/OF_PROP_02_BurgundyEnvelope_v01__seal.png",
+  "w": 90,
+  "h": 85,
+  "alpha": true,
+  "derivedFrom": "OF_PROP_02_BurgundyEnvelope_v01.png",
+  "derivation": "Wax seal cut from the sealed envelope (box 152,148\u2013242,233) so it can crack in two halves when opened."
+ },
+ "OF_PROP_03_OpenedEnvelope_v01__burgundy": {
+  "path": "assets/derived/OF_PROP_03_OpenedEnvelope_v01__burgundy.png",
+  "w": 402,
+  "h": 477,
+  "alpha": true,
+  "derivedFrom": "OF_PROP_03_OpenedEnvelope_v01.png",
+  "derivation": "Recoloured from OF_PROP_03 (green) to match OF_PROP_02 burgundy using the two envelopes' mean HSV; cream letter and gold seal untouched. Offer B has no opened-envelope asset of its own."
+ }
+}
