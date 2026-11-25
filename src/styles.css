@@ -204,6 +204,8 @@ img { display: block; max-width: 100%; height: auto; user-select: none; -webkit-
 .finding__body { margin: 0 auto 20px; max-width: 34em; font: 500 18px/1.4 var(--serif); }
 .finding .btnrow { justify-content: center; }
 .finding .linkbtn { color: var(--green); margin-top: 10px; }
+.finding { overflow-y: auto; place-items: start center; }
+.finding__card { margin: auto; max-height: calc(100dvh - 40px); overflow-y: auto; overscroll-behavior: contain; }
 
 .modal { border: 0; padding: 0; background: transparent; color: var(--ink); max-width: min(980px, 96vw); max-height: 94vh; overflow: visible; }
 .modal::backdrop { background: rgba(10,6,3,.7); }
@@ -369,7 +371,14 @@ img { display: block; max-width: 100%; height: auto; user-select: none; -webkit-
   .finding__sum { grid-template-columns: 1fr; }
   .agenda li { padding: 4px 7px; font-size: 11px; }
 }
-@media (max-height: 860px) { .mode-stage .cabinet { padding: 6px 18px 8px; } .mode-stage .cabinet__head { margin-bottom: 4px; } .mode-stage .cabinet__units { grid-template-columns: repeat(3, minmax(0, 180px)); } }
+@media (max-height: 860px) {
+  .mode-stage .cabinet { padding: 5px 18px 6px; }
+  .mode-stage .cabinet__head { margin-bottom: 2px; }
+  .mode-stage .cabinet__head h2 { font-size: 16px; }
+  .mode-stage .cabinet__head span { font-size: 10px; }
+  .mode-stage .cabinet__units { grid-template-columns: repeat(3, minmax(0, 140px)); gap: 10px; }
+  .mode-stage .unit { height: 92px; }
+}
 
 /* ---------- reduced motion ---------- */
 .rm *, .rm *::before, .rm *::after { animation-duration: 1ms !important; animation-iteration-count: 1 !important; transition-duration: 1ms !important; }
