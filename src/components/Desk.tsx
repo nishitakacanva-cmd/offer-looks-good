@@ -96,7 +96,7 @@ export function DecisionCard({ s, d }: P) {
     <section className={'obj obj--decision' + (ready ? ' ready' : '')} aria-label="Decision card">
       <AssetImage k="OF_PROP_04_CreamLetterSheets_v01" alt="" className="decision__paper" />
       <div className="decision__in">
-        {!ready && <p className="decision__wait">Open both envelopes first.</p>}
+        {!ready && <p className="decision__wait"><b>START HERE</b><span>Open both envelopes to compare the offers.</span></p>}
         {ready && !s.first && (
           <>
             <b className="decision__h">FIRST IMPRESSION</b>
@@ -120,7 +120,7 @@ export function DecisionCard({ s, d }: P) {
 /* ---------- Small desk props ---------- */
 export function Prop({ k, label, cls, onClick, pressed, disabled, chip }: { k: string; label: string; cls: string; onClick: () => void; pressed?: boolean; disabled?: boolean; chip: string }) {
   return (
-    <button type="button" className={'obj prop ' + cls + (pressed ? ' on' : '')} onClick={onClick} aria-pressed={pressed} disabled={disabled} aria-label={label}>
+    <button type="button" className={'obj prop ' + cls + (pressed ? ' on' : '')} onClick={onClick} aria-pressed={pressed} disabled={disabled} aria-label={label} title={label}>
       <AssetImage k={k} alt="" />
       <span className="chip">{chip}</span>
     </button>
@@ -162,7 +162,7 @@ export function Cabinet({ s, d }: { s: State; d: Dispatch<Action> }) {
               const check = s.circ.length > 0 && DRAWER_CIRC(s).includes(dr.id);
               return (
                 <button key={dr.id} type="button" className={'drawer drawer--' + i + (seen ? ' seen' : '')} disabled={locked}
-                  onClick={() => d({ t: 'panel', p: { t: 'drawer', id: dr.id } })} aria-label={`Open drawer: ${dr.name}${seen ? ' (opened)' : ''}${matters ? ', matters to your top priorities' : ''}`}>
+                  onClick={() => d({ t: 'panel', p: { t: 'drawer', id: dr.id } })} aria-label={`Open drawer: ${dr.name}${seen ? ' (opened)' : ''}${matters ? ', matters to your top priorities' : ''}`} title={`Open ${dr.name}: compare what each offer says and leaves out`}>
                   <span className="drawer__label">{dr.name.replace('The ', '').toUpperCase()}</span>
                   {seen && <span className="drawer__seen" aria-hidden="true">✓</span>}
                   {(matters || check) && <span className={'ribbon' + (check ? ' ribbon--c' : '')} aria-hidden="true">{check ? 'CHECK' : 'MATTERS'}</span>}

@@ -5,7 +5,7 @@ import { Cabinet } from './components/Desk';
 import { Calc, Cards, DrawerDoc, Finding, Intro, Notebook, PrintSheet, Questions, SourcesPanel, Week } from './components/Panels';
 import { COPY } from './data/content';
 
-const BASE_W = 1376, BASE_H = 768, MIN_STAGE_SCALE = 0.62;
+const BASE_W = 1376, BASE_H = 768;
 
 function playDeskSound(kind: string) {
   const AudioContextCtor = window.AudioContext || (window as Window & { webkitAudioContext?: typeof AudioContext }).webkitAudioContext;
@@ -45,11 +45,10 @@ export default function App() {
   useLayoutEffect(() => {
     function fit() {
       const w = wrapRef.current?.clientWidth ?? window.innerWidth;
-      const cab = window.innerHeight < 860 ? 174 : 190;
-      const h = window.innerHeight - 56 - cab;
-      const sc = Math.min(w / BASE_W, Math.max(h, 420) / BASE_H);
+      const h = window.innerHeight - 56;
+      const sc = Math.min((w - 250) / BASE_W, Math.max(h, 420) / BASE_H);
       setScale(sc);
-      setMode(sc < MIN_STAGE_SCALE || window.innerWidth < 900 ? 'stack' : 'stage');
+      setMode(sc < 0.5 || window.innerWidth < 900 ? 'stack' : 'stage');
     }
     fit();
     const ro = new ResizeObserver(fit); if (wrapRef.current) ro.observe(wrapRef.current);

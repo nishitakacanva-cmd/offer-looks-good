@@ -9,7 +9,7 @@ export type Choice = 'A' | 'B' | 'more';
 
 export const COPY = {
   title: 'YOU HAVE TWO OFFERS.',
-  lede: 'They both want you. Both sound promising. Both leave a few things unanswered.',
+  lede: 'They both want you. Both sound promising.\nBoth leave a few things unanswered.',
   cta: 'OPEN YOUR OFFERS',
   exhibit: 'THE OFFER LOOKS GOOD. DOES THE JOB?',
   end1: 'A BETTER OFFER ISN’T ALWAYS THE SAME AS A BETTER FIT.',

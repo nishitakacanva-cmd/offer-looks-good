@@ -28,7 +28,7 @@ export function Intro({ d }: { d: Dispatch<Action> }) {
       <div className="intro__card">
         <span className="attribution">{COPY.attribution} · {COPY.exhibit}</span>
         <h1 id="intro-h">{COPY.title}</h1>
-        <p className="intro__lede">{COPY.lede}</p>
+        <p className="intro__lede">{COPY.lede.split('\n').map((line, i) => <span key={line}>{i > 0 && <br />}{line}</span>)}</p>
         <button type="button" className="btn btn--go" onClick={() => d({ t: 'begin' })} autoFocus>{COPY.cta}</button>
         <p className="intro__fine">{COPY.disclosure} {COPY.persistence}</p>
       </div>
